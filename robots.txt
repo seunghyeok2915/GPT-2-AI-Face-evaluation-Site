@@ -1,0 +1,3 @@
+User-agent: *
+Allow:/
+Sitemap: https://facechecksh.netlify.app/sitemap.xml
