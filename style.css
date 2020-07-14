@@ -157,7 +157,7 @@ body {
 }
 
 .youtube-link {
-    font-size: 1.5rem;
+    font-size: 0.5rem;
     line-height: 1.71;
     text-align: center;
     color: #f73737;
@@ -165,7 +165,7 @@ body {
 }
 
 .youtube-link:hover {
-    font-size: 1.5rem;
+    font-size: 0.5rem;
     line-height: 1.71;
     text-align: center;
     color: #f73737;
