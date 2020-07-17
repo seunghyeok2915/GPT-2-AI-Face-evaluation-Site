@@ -1,6 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+            crossorigin="anonymous"
+        />
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"
+        ></script>
+        <meta
+            name="google-site-verification"
+            content="kWaqEI1WfsZvibEE5ADeYiEAtqkjRtFZosVNGyn0i7w"
+        />
         <meta name="naver-site-verification" content="40d531a37cd93d33990e7d1bb485d221cc7f4dc7" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -12,12 +44,21 @@
             integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
             crossorigin="anonymous"
         />
-        <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet" />
-        <title>미남미녀 테스트</title>
-        <meta name="title" content="미남미녀 테스트" />
-        <meta name="subject" content="인공지능 미ㅇ남미녀 테스트, 나의 얼굴을 평가해보세요!" />
-        <meta name="keywords" content="미남미녀 테스트, AI인공지능 테스트" />
+        <title>성별 판별기</title>
+        <meta name="title" content="성별 판별기" />
+        <meta name="subject" content="인공지능 성별 판별기, 나의 얼굴을 평가해보세요!" />
+        <meta name="keywords" content="성별 판별기, AI인공지능 테스트" />
         <meta name="author" content="승혁" />
+        <meta
+            name="description"
+            content="인공지능 성별 판별기, 성별 판별기 해보세요! 전세계에서 학습한 인공지능이 나의 얼굴이 남자인지 여자인지 판별해드립니다. 외모테스트, AI, 외모평가"
+        />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+            crossorigin="anonymous"
+        />
         <link rel="stylesheet" href="style.css" />
         <link rel="canonical" href="https://facechecksh.netlify.app/" />
         <meta property="og:url" content="https://facechecksh.netlify.app/" />
@@ -25,7 +66,7 @@
         <meta property="og:title" content="미남미녀 테스트" />
         <meta
             property="og:description"
-            content="인공지능 미남미녀 테스트, 미남미녀 인지 테스트 해보세요! 전세계 미남미녀로 학습한 인공지능이 나의 얼굴로 미남미녀인지 판별해드립니다."
+            content="인공지능 미남미녀 테스트, 미남미녀 인지 테스트 해보세요! 전세계 미남미녀로 학습한 인공지능이 나의 얼굴로 미남미녀인지 판별해드립니다. 외모테스트, AI, 외모평가"
         />
         <meta
             property="og:image"
@@ -41,10 +82,30 @@
     </head>
 
     <body>
+        <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+        <script type="text/javascript">
+            if (!wcs_add) var wcs_add = {};
+            wcs_add['wa'] = '736085089b5068';
+            if (window.wcs) {
+                wcs_do();
+            }
+        </script>
+        <div class="ad-banner2">
+            <ins
+                class="kakao_ad_area"
+                style="display: none;"
+                data-ad-unit="DAN-r1fkal2qhx7q"
+                data-ad-width="320"
+                data-ad-height="50"
+            ></ins>
+            <script
+                type="text/javascript"
+                src="//t1.daumcdn.net/kas/static/ba.min.js"
+                async
+            ></script>
+        </div>
         <nav class="p-3 container navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="https://facecheck-jwafe.run.goorm.io/FaceCheck/index.html"
-                >미남미녀 테스트</a
-            >
+            <a class="navbar-brand" href="https://facechecksh.netlify.app/gendertest.html">성별 판별기</a>
             <button
                 class="navbar-toggler"
                 type="button"
@@ -59,26 +120,41 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#"
-                            >미남미녀 테스트
+                        <a class="nav-link" href="https://facechecksh.netlify.app/"
+                            >미남미녀 외모 테스트
                             <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li
+                        class="nav-item active"
+                    >
+                        <a
+                            class="nav-link"
+                            id="yotube-top-link"
+                            href="https://facechecksh.netlify.app/"
+                            >미남미녀 외모 테스트</a
+                        >
+                    </li>
+                    <li id="goToBlog" class="nav-item active">
+                        <a class="nav-link" href="https://facechecksh.netlify.app/">
+                            미남미녀 외모 테스트
                         </a>
                     </li>
                 </ul>
             </div>
         </nav>
         <section class="section">
-            <h1 class="title">미남미녀 테스트</h1>
-            <h2 class="subtitle">미남미녀 테스트</h2>
-            <h2 class="sr-only">나는 미남미녀 일까? 나의 얼굴을 평가 해보세요!</h2>
+            <h1 class="title">성별 판별기</h1>
+            <h2 class="subtitle">성별 판별기</h2>
+            <h2 class="sr-only">나는 남자일까 여자일까? 나의 얼굴을 판별 해보세요!</h2>
             <h3 class="sr-only">
-                연예인 사진 데이터로 학습한 인공지능이 나의 얼굴을 평가합니다.
+                연예인 사진 데이터로 학습한 인공지능이 나의 얼굴을 판별합니다.
             </h3>
             <h4 class="sr-only">
                 본 서비스는 Google의 인공지능 teachable machine 2.0을 활용하였습니다.
             </h4>
             <p class="sr-only">
-                인공지능이 얼굴을 평가해드립니다.
+                인공지능이 얼굴을 판별해드립니다.
             </p>
         </section>
         <section class="youtube pb-3" id="yotube-mid-link">
@@ -101,8 +177,13 @@
                 <div class="drag-text">
                     <img src="favicon.ico" class="mt-5 pt-5 upload" />
                     <h3 class="mb-5 pb-5 pt-4 upload-text">
-                        얼굴 사진을 올려놓거나 눌러서 업로드하세요!
+                        얼굴 사진을 올려놓거나<br />눌러서 업로드하세요!
                     </h3>
+                    <script
+                        type="text/javascript"
+                        src="//t1.daumcdn.net/kas/static/ba.min.js"
+                        async
+                    ></script>
                 </div>
             </div>
             <div class="file-upload-content">
@@ -114,6 +195,15 @@
                     <p class="text-center">AI가 당신의 얼굴을 분석중입니다.</p>
                 </div>
                 <p class="result-message"></p>
+                <div class="ad-banner3">
+                    <ins
+                        class="kakao_ad_area"
+                        style="display: none;"
+                        data-ad-unit="DAN-1h7toikl19838"
+                        data-ad-width="300"
+                        data-ad-height="250"
+                    ></ins>
+                </div>
                 <div id="label-container" class="d-flex flex-column justify-content-around"></div>
 
                 <!-- Go to www.addthis.com/dashboard to customize your tools -->
@@ -141,6 +231,71 @@ this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL va
 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 */
+            (function () {
+                // DON'T EDIT BELOW THIS LINE
+                var d = document,
+                    s = d.createElement('script');
+                s.src = 'https://seunghyeok.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript
+            >Please enable JavaScript to view the
+            <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript
+        >
+        <div class="ad-banner">
+            <ins
+                class="kakao_ad_area"
+                style="display: none;"
+                data-ad-unit="DAN-trwelemmiq90"
+                data-ad-width="320"
+                data-ad-height="100"
+            ></ins>
+            <script
+                type="text/javascript"
+                src="//t1.daumcdn.net/kas/static/ba.min.js"
+                async
+            ></script>
+        </div>
+        <a href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg" class="youtube-link"
+            ><br />제작 도움: 조코딩 유튜브 채널</a
+        >
+        <footer class="footer pt-5 container d-flex justify-content-center">
+            <div>
+                <p>&copy; 승혁 Seunghyeok 2020. All Rights Reserved.</p>
+                <ul id="moreInfo" class="list-inline d-flex justify-content-center">
+                    <li class="list-inline-item">
+                        <a href="https://facechecksh.netlify.app/privacy.html">Privacy</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://facechecksh.netlify.app/">About</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <script>
+            function readURL(input) {
+                if (input.files && input.files[0]) {
+                    var reader = new FileReader();
+                    reader.onload = function (e) {
+                        $('.image-upload-wrap').hide();
+                        $('#loading').show();
+                        $('.file-upload-image').attr('src', e.target.result);
+                        $('.file-upload-content').show();
+                        $('.image-title').html(input.files[0].name);
+                    };
+                    reader.readAsDataURL(input.files[0]);
+                    init().then(function () {
+                        console.log('hello');
+                        predict();
+                        $('#loading').hide();
+                    });
+                } else {
+                    removeUpload();
+                }
+            }
+
             (function () {
                 // DON'T EDIT BELOW THIS LINE
                 var d = document,
@@ -286,20 +441,13 @@ this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your pag
     <!-- 
 image input box
 Copyright (c) 2020 by Aaron Vanston (https://codepen.io/aaronvanston/pen/yNYOXR)
-
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
 gender toggle
 Copyright (c) 2020 by Mert Cukuren (https://codepen.io/knyttneve/pen/bPpEZY)
-
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  -->
 </html>
