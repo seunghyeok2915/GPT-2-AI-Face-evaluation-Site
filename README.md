@@ -17,8 +17,6 @@ https://play.google.com/store/apps/details?id=com.seunghyeokcompany.facecheck
 ![image](https://user-images.githubusercontent.com/64355834/125903443-29e4775e-7a9f-439e-bf92-2d007c3f21eb.png)
 ### 앱 1000+ 다운로드
 ![image](https://user-images.githubusercontent.com/64355834/125903523-a12220bf-ac52-4cc4-9eea-41da8b692aa0.png)
-### 광고수익 10000원
-![image](https://user-images.githubusercontent.com/64355834/159674241-679ccb66-eddb-435c-b202-239ac25c48c4.png)
 
 
 
